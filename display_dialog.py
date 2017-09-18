@@ -107,9 +107,6 @@ def message(dialog, title, answer, hidden, buttons, button, icon, timeout):
 		if type(timeout) is int:
 			cmd = cmd + ' giving up after ' + str(timeout)
 
-	#	set cmd syntax end with single-quote
-	cmd = cmd 
-
 	#	run complete command
 	proc_out, proc_err = subprocess.Popen(['/usr/bin/osascript',  '-e',  cmd], stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
 
