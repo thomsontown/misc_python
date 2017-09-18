@@ -3,12 +3,12 @@
 '''
 This script was written to provide an example function that leverages applescript's 
 display dialog handler. By passing arguments to the function from within a python
-script, a macOS-style dialog box will be display to interact with the user. 
+script, a macOS-style dialog box will be displayed to interact with the user. 
 
 	dialog  -> (Required) The text you want to display in the dialog box. The text can be
-			   informational or it can be a question to be answered in a prompt.
+			   informational or it can be a question to be answered in the prompt.
 
-	title   -> (Optional) The text you want to appear as the dialog box title.  
+	title   -> (Optional) The text you want to appear as the title to the dialog box.  
 
 	answer  -> (Optional) To prompt for input a default answer is required, even if it is
 			   a blank string. 
@@ -22,7 +22,7 @@ script, a macOS-style dialog box will be display to interact with the user.
 
 	icon    -> (Optional) Three default icons are available: 'stop', 'note', 'caution'.
 			   Additionally, a POSIX style path to an icon file (.icns) can be specified
-			   for a more customized icon to be displayed.
+			   for a more customized approach.
 
 	timeout -> (Optional) An integer indicating the number of seconds before the dialog-box
 			   will give up and disappear. 
