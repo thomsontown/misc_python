@@ -5,27 +5,27 @@ This script was written to provide an example function that leverages applescrip
 display dialog handler. By passing arguments to the function from within a python
 script, a macOS-style dialog box will be displayed to interact with the user. 
 
-	dialog  -> (Required) The text you want to display in the dialog box. The text can be
-			   informational or it can be a question to be answered in the prompt.
+    dialog  -> (Required) The text you want to display in the dialog box. The text can be
+               informational or it can be a question to be answered in the prompt.
 
-	title   -> (Optional) The text you want to appear as the title to the dialog box.  
+    title   -> (Optional) The text you want to appear as the title to the dialog box.  
 
-	answer  -> (Optional) To prompt for input a default answer is required, even if it is
-			   a blank string. 
+    answer  -> (Optional) To prompt for input a default answer is required, even if it is
+               a blank string. 
 
-	hidden  -> (Optional) To conceal the text of an input prompt (answer), this argument
-			   must be any valid string. 
+    hidden  -> (Optional) To conceal the text of an input prompt (answer), this argument
+               must be any valid string. 
 
-	buttons -> (Optional) A maximum list of 3 custom button names can be specified.
+    buttons -> (Optional) A maximum list of 3 custom button names can be specified.
 
-	button  -> (Optional) Name of the button you want to specify to be the default.
+    button  -> (Optional) Name of the button you want to specify to be the default.
 
-	icon    -> (Optional) Three default icons are available: 'stop', 'note', 'caution'.
-			   Additionally, a POSIX style path to an icon file (.icns) can be specified
-			   for a more customized approach.
+    icon    -> (Optional) Three default icons are available: 'stop', 'note', 'caution'.
+               Additionally, a POSIX style path to an icon file (.icns) can be specified
+               for a more customized approach.
 
-	timeout -> (Optional) An integer indicating the number of seconds before the dialog-box
-			   will give up and disappear. 
+    timeout -> (Optional) An integer indicating the number of seconds before the dialog-box
+               will give up and disappear. 
 
 Author:		Andrew Thomson
 Date:		2017-09-18
